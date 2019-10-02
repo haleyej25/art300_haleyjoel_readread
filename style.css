@@ -1,0 +1,31 @@
+pre{
+    font-size: 0%
+}
+
+h1{
+color: #A8A8A8;
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+h1 ~ h4 {
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+h2 ~ h4{ 
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal;    
+}
+h2{
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal; 
+}
+
+h3{
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal; 
+}
