@@ -1,42 +1,229 @@
-pre{
-    font-size: 0%
+big{
+    font-size:0;
 }
+pre{ 
+    font-size: 0cm;
+}
+body{
+    padding: 0cm;
+    margin: 0%;
+    width: 100vw;
+    background-color: #232d55;
 
+}
 h1{
+background-color: #493960;
 color: #A8A8A8;
 font-family: dunbar-tall, sans-serif;
 font-weight: 200;
 font-style: normal;
+font-size: 170pt;
+margin: 0%;
 }
-h1 ~ h4 {
-font-family: dunbar-tall, sans-serif;
-font-weight: 200;
-font-style: normal;
-}
-h2 ~ h4{ 
-font-family: dunbar-tall, sans-serif;
-font-weight: 200;
-font-style: normal;    
-}
-h2{
+h1+h4 {
 font-family: dunbar-tall, sans-serif;
 font-weight: 200;
 font-style: normal; 
+text-align: left;
+font-size: 20pt;
+color: #DDBB00;
+margin: 0%;
+padding: 0%;
+margin-left: 75px;
 }
-
+h4+h2{ 
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal; 
+text-align: left;
+font-size: 40pt;
+color: #DDBB00;
+margin: 0%;
+padding: 0%;
+margin-left: 120px;
+}
+h3+h2{
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal; 
+text-align: left;
+font-size: 40pt;
+color: #DDBB00;
+margin: 0%;
+padding: 0%;
+margin-left: 120px;
+}
 h3{
 font-family: dunbar-tall, sans-serif;
 font-weight: 200;
 font-style: normal; 
+text-align: left;
+font-size: 20pt;
+color: #DDBB00;
+margin: 0%;
+padding: 0%;
+margin-left: 75px;
 }
-table ~ h2{
-display: table-column-group;
-width: 100em;
+a+h3{
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal; 
+text-align: left;
+font-size: 40pt;
+color: #DDBB00;
+margin: 0%;
+padding: 0%;
+margin-left: 75px;
+margin-top: 100px;
+background-color: #493960
 }
-tr{display: table-cell;
-background-color: lawngreen;}
-display:
+h3+h3{
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal; 
+text-align: left;
+font-size: 20pt;
+color:#A8A8A8;
+margin: 0%;
+padding: 0%;
+margin-left: 75px;
+margin-right: 75px;
+
+}
+br+h2{
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal; 
+text-align: left;
+font-size: 50pt;
+color: #DDBB00;
+margin: 0%;
+padding: 0%;
+margin-left: 72px;
+background-color: rgb(157, 157, 157);
+}
+
+tr{
+margin-left: 50px;
+display: table-cell;
+background-color: rgb(157, 157, 157);}
+
+
 td{
-   display: table-cell;
-   background-color: aqua;
+color: #DDBB00;
+display: table-cell;
+font-size: 20px;
+margin-left: 20px;
+margin: 5em;
+
+}
+
+
+table{
+display: block;
+max-width: 100%;
+overflow: scroll;
+margin-left: 70px;
+margin-top: 0%;
+
+}
+td:first-child{ font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal; 
+font-size: 100pt;
+padding: 30px;
+    
+}
+td a{
+display: block;
+min-width: 200px;
+padding: 20px;
+color: black;
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal; 
+text-align: right;
+}
+
+p{
+display: block;
+margin-left: 40vw;
+margin-right: 75px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+color: #A8A8A8;
+font-weight: 100;
+line-height: 1.5em;
+}
+
+/*---tablet---*/
+@media only screen and (min-width:800px) and (max-width:1200px) {
+h1{
+background-color: #493960;
+color: #A8A8A8;
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal;
+font-size: 130pt;
+margin: 0%;
+text-align: center;
+}
+
+h1+h4 {
+font-size: 0pt;
+}
+h4+h2{ 
+font-size: 0pt;
+}
+
+h3+h2{
+font-size: 0pt;
+}
+h3{
+font-size: 0pt;
+}
+br+h2{
+    background-color: #232d55;
+    margin-left: 3px;
+    text-align: center;
+}
+table{
+margin: 3px;
+}
+
+p{
+line-height:1em;
+}
+}
+
+/* ----------- SMART PHONES ----------- */
+
+@media only screen and (max-width:800px) {
+a+h3{
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal; 
+text-align: left;
+font-size: 30pt;
+color: #DDBB00;
+margin: 0%;
+padding: 0%;
+margin-left: 75px;
+margin-top: 100px;
+background-color: #5c00dc
+}
+
+h3+h3{
+font-family: dunbar-tall, sans-serif;
+font-weight: 200;
+font-style: normal; 
+text-align: left;
+font-size: 10pt;
+color:#A8A8A8;
+margin: 0%;
+padding: 0%;
+margin-left: 75px;
+margin-right: 75px;
+}
+}
 }
